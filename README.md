@@ -55,8 +55,6 @@ WHERE year_published < 1950;
 SELECT author_id, COUNT(*) AS book_count
 FROM books
 GROUP BY author_id;
-<img width="1572" height="877" alt="image" src="https://github.com/user-attachments/assets/b7493864-75d0-48d0-8f24-46ed8e14be4b" />
 
-<img width="1625" height="888" alt="image" src="https://github.com/user-attachments/assets/12c476fa-1f40-4b3f-89d9-3ee71a5d9feb" />
 
 
