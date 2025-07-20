@@ -77,8 +77,21 @@ SELECT author_id, COUNT(*) AS book_count
 FROM books
 GROUP BY author_id;
 
-images/authorssql.png
+### 1. Authors Table  
+This screenshot shows the `authors` table as seen in SQLite Viewer.
 
-![alt text](images/bookssql.png)
+![Authors Table](images/authorssql.png)
 
-![alt text](images/Joinqueryresults.png)
+---
+
+### 2. Books Table  
+This screenshot shows the `books` table populated with data.
+
+![Books Table](images/bookssql.png)
+
+---
+
+### 3. Join Query Results  
+This screenshot shows the results of the join query combining authors and books.
+
+![Join Query](images/Joinqueryresults.png)
