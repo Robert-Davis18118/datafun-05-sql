@@ -55,6 +55,27 @@ WHERE year_published < 1950;
 SELECT author_id, COUNT(*) AS book_count
 FROM books
 GROUP BY author_id;
+## 📸 Screenshots
 
+### 1. Authors Table  
+This screenshot shows the `authors` table as viewed in SQLite Viewer.
 
+![Authors Table](images/authorssql.png)
+
+---
+
+### 2. Books Table  
+This screenshot shows the `books` table populated with sample data.
+
+![Books Table](images/bookssql.png)
+
+---
+
+### 3. Join Query Results  
+This screenshot shows the output of the JOIN query combining authors and their books.
+
+```sql
+SELECT authors.first, authors.last, books.title, books.year_published
+FROM authors
+INNER JOIN books ON authors.author_id = books.author_id;
 
